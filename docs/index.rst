@@ -12,28 +12,9 @@ Welcome to Redmine Tweaks Plugin
 
 Tweaks for wiki and content including new macros for `Redmine`_.
 
-* Documentation: https://redmine-tweaks.readthedocs.io
-* Redmine.org plugin page: https://www.redmine.org/plugins/redmine_tweaks
-* Github: https://github.com/alphanodes/redmine_tweaks
+THIS PLUGIN IS NOT LONGER SUPPORTED, PLEASE USE SUCCESSOR PLUGIN `Additionals <https://github.com/alphanodes/additionals>`_.
 
-.. image:: https://gemnasium.com/badges/github.com/AlphaNodes/redmine_tweaks.svg
-   :target: https://gemnasium.com/github.com/AlphaNodes/redmine_tweaks
-
-.. image:: https://pm.alphanodes.com/jenkins/buildStatus/icon?job=Devel-build-redmine-tweaks
-   :target: https://pm.alphanodes.com/jenkins/buildStatus/icon?job=Devel-build-redmine-tweaks
-   :alt: Jenkins Build Status
-
-.. image:: https://readthedocs.org/projects/redmine-tweaks/badge/?version=latest
-   :target: http://redmine-tweaks.readthedocs.io/en/latest/?badge=latest
-   :alt: Documentation Status
-
-.. image:: https://img.shields.io/codeclimate/github/AlphaNodes/redmine_tweaks.svg?style=flat
-   :target: https://codeclimate.com/github/AlphaNodes/redmine_tweaks
-   :alt: Code Climate
-
-.. image:: https://img.shields.io/badge/rate%20at-redmine.org-blue.svg?style=flat
-   :target: https://www.redmine.org/plugins/redmine_tweaks
-   :alt: Rate at redmine.org
+If your Redmine version is older then 3.0, use this plugin. Otherwise use `Additionals <https://github.com/alphanodes/additionals>`_.
 
 Requirements
 ------------
@@ -68,8 +49,6 @@ Install ``redmine_tweaks`` plugin for `Redmine`_.
 
 Restart your application server (apache with passenger, nginx with passenger, unicorn, puma, etc.) and ``redmine_tweaks`` is ready to use.
 
-More information about installation of Redmine plugins, you can find in the official `Redmine plugin documentation <https://www.redmine.org/projects/redmine/wiki/Plugins>`_.
-
 Features
 --------
 
@@ -93,12 +72,6 @@ Features
   * closing issue with open sub issues
   * change assigned_to automatically, if issue status changes
   * assigned_to has changed, but status change is required, too
-
-
-Contact and Support
---------------------
-
-I am glad about your feedback on the plugin, `pull requests <https://github.com/alphanodes/redmine_tweaks/pulls>`_, `issues <https://github.com/alphanodes/redmine_tweaks/issues>`_, whatever. Feel free to contact me for any questions.
 
 
 .. toctree::
