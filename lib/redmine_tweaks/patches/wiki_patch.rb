@@ -10,7 +10,8 @@ module RedmineTweaks
       def self.included(base) # :nodoc:
         base.send(:include, InstanceMethodsForRedmineTweaksWiki)
         base.class_eval do
-          alias_method_chain :sidebar, :redmine_tweaks
+	  alias_method :sidebar, :sidebar_with_redmine_tweaks
+          #alias_method_chain :sidebar, :redmine_tweaks
         end
       end
     end
