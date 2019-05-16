@@ -9,6 +9,7 @@ module RedmineTweaks
       def self.included(base)
         base.send(:include, InstanceMethods)
         base.class_eval do
+          alias_method :editable_by_without_tweaks?, :editable_by?
           alias_method :editable_by?, :editable_by_with_tweaks?
           #alias_method_chain :editable_by?, :tweaks
           validate :validate_issue_allowed

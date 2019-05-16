@@ -9,6 +9,7 @@ module RedmineTweaks
       def self.included(base) # :nodoc:
         base.send(:include, InstanceMethodsForRedmineTweaksWikiController)
         base.class_eval do
+          alias_method :respond_to_without_redmine_tweaks, :respond_to
           alias_method :respond_to, :respond_to_with_redmine_tweaks
           #alias_method_chain :respond_to, :redmine_tweaks
         end

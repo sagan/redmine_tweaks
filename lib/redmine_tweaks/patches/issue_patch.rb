@@ -7,6 +7,7 @@ module RedmineTweaks
       def self.included(base)
         base.send(:include, InstanceMethods)
         base.class_eval do
+          alias_method :editable_without_closed_edit?, :editable?
           alias_method :editable?, :editable_with_closed_edit?
           #alias_method_chain :editable?, :closed_edit
           # TODO: working on issues of dependencies (aroud 20 redmine tests failed with it)
